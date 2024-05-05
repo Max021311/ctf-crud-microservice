@@ -16,6 +16,8 @@ DB_USER="postgres" # Usuario de la DB
 DB_NAME="postgres" # Nombre de la DB
 DB_PASSWORD="postgres" # Contraseña de la DB
 DB_PORT="5432" # Puerto de la de DB
+DB_SSL="true" # Por defecto es false
+PGSSLMODE="require" # En caso de necesitar SSL para conectarse a la BD, sino omitirlo
 AUTH_HOST="http://localhost:3010" # Host del servidor de autenticación
 PREFIX="/api" # Server prefix
 ```
