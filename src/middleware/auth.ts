@@ -10,7 +10,7 @@ const authMiddleware: preHandlerAsyncHookHandler = async (request) => {
   if (token === undefined) { throw new Error('Missing token') }
   const decoded = Jwt.decode(token)
   try {
-    await Axios.get('/api/auth', {
+    await Axios.get('/auth', {
       headers: {
         Authorization: 'Bearer ' + token
       },

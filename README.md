@@ -17,6 +17,7 @@ DB_NAME="postgres" # Nombre de la DB
 DB_PASSWORD="postgres" # Contraseña de la DB
 DB_PORT="5432" # Puerto de la de DB
 AUTH_HOST="http://localhost:3010" # Host del servidor de autenticación
+PREFIX="/api" # Server prefix
 ```
 
 ## Iniciar el repo para desarrollo
